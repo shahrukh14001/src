@@ -18,6 +18,10 @@
             <div class="box box-primary">
                 <div class="box-header">
                     <h3 class="box-title">List of user</h3>
+                    <div class="box-tools pull-right">
+                        <input type="text" name="search-box" style="border-radius: 4px; border: 1px solid lightgrey; padding: 4px 6px; height: 25px" placeholder="Hit enter to search">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                    </div>
                 </div>
 
                 <div class="box-body">
@@ -64,7 +68,7 @@
 
         $('[name="search-box"]').on('keyup change', function (e) {
             if(e.keyCode === 13) {
-                documents_table.search($(this).val()).draw();
+                user_table.search($(this).val()).draw();
             }
         });
 
