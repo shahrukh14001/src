@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="box box-primary">
+            <div class="box-header">
+                <h3 class="box-title">List of documents</h3>
+                <div class="box-tools pull-right">
+                    <input type="text" name="search-box" style="border-radius: 4px; border: 1px solid lightgrey; padding: 4px 6px; height: 25px" placeholder="Hit enter to search">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                </div>
+            </div>
+
+            <div class="box-body">
+                <table id="documents_table" class="table table-striped table-bordered">
+                    <thead>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Url</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
